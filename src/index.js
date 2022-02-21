@@ -2,11 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App.jsx";
 import { ChakraProvider, extendTheme, theme } from '@chakra-ui/react';
+import { mode } from "@chakra-ui/theme-tools";
 
 // Import thirdweb
 import { ThirdwebWeb3Provider } from '@3rdweb/hooks';
 
 // Override fonts from default theme
+const light = "#e9fcfc";
 const customTheme = extendTheme({
   ...theme,
   fonts: {
@@ -14,6 +16,13 @@ const customTheme = extendTheme({
     heading: 'Inter, sans-serif',
     mono: 'Fira Code, monospace'
   },
+  styles: {
+    global: (props) => ({
+      body: {
+        bg: mode(light,)(props),
+      }
+    })
+  }
 });
 
 // Include what chains you wanna support
