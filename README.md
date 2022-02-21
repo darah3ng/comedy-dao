@@ -1,11 +1,8 @@
-# buildspace x thirdweb - Build your own DAO with just Javascript
+# Comedy DAO
 
-### **Welcome 👋**
-To get started with this course, clone this repo and follow these commands:
+DAO - Decentralized Autonomous Organization
 
-1. Run `npm install` at the root of your directory
-2. Run `npm start` to start the project
-3. Start coding!
+## Purpose
 
-### **Questions?**
-Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/projects/COb520aae3-7925-42f4-a5e7-eaf718933766) and link your Discord account so you can get access to helpful channels and your instructor!
+A platform where people receive $*COMEDY* whenever they share their funniest jokes. The community gets to vote on what joke is best, and the winner gets rewarded with *$COMEDY*.
+
